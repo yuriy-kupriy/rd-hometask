@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+
+# TLS-ключі й серти — НІКОЛИ не комітимо. Відтворити: npm run certs
+certs/
+*.pem
+*.key
+
+# УВАГА: src/*.js НЕ ігноруємо — це збірка з .ts, і саме її грепають
+# acceptance criteria (grep -n "net.createServer" src/server.js).
+# На чистому клоні вона має бути на місці.
