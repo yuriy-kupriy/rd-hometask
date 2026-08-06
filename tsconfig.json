@@ -1,0 +1,28 @@
+{
+  // Джерело правди — .ts (node 24 стрипає типи сам: `node src/server.ts` працює).
+  // Збірка потрібна лише щоб поруч лягли .js, які грепають acceptance criteria.
+  // Тому НЕМАЄ outDir: емісія йде поруч із джерелом, у src/.
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    // allowImportingTsExtensions дозволяє писати `from './status.ts'` (як вимагає
+    // рантайм node), а rewriteRelativeImportExtensions переписує це в './status.js'
+    // під час емісії — інакше зібраний .js шукав би неіснуючий .ts.
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+
+    // Забороняє синтаксис, який node не вміє стирати (enum, namespace,
+    // parameter properties) — щоб `node src/server.ts` не зламався.
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
+}
