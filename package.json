@@ -1,13 +1,12 @@
 {
   "name": "node-practice",
   "version": "1.0.0",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "build": "tsc",
     "start": "node src/server.ts",
     "start:https": "node src/https-server.ts",
     "certs": "bash scripts/setup-certs.sh",
-    "test": "npm run build && node --test test/*.test.mjs",
+    "test": "node --test test/*.test.mjs",
     "test:watch": "node --test --watch test/*.test.mjs",
     "verify": "bash scripts/verify-ac.sh"
   },
@@ -15,9 +14,5 @@
   "author": "",
   "license": "ISC",
   "description": "ДЗ №3 — HTTP на net.createServer() і HTTPS на tls.createServer(), без модулів http/https",
-  "type": "module",
-  "devDependencies": {
-    "@types/node": "^26.1.2",
-    "typescript": "^7.0.2"
-  }
+  "type": "module"
 }

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1b6c648-fdd4-4970-aea3-e46b495c65e7" name="Changes" comment="feat: test-task-3&#10;&#10;* Add task test files." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yuriy-kupriy"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yuriy-kupriy/hometask-3.git",
+    "accountId": "29cca879-8b14-4d63-9a4b-1db995fe132f"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5794053395143517" />
+      <entry key="MS500" value="3.5173322813755417" />
+      <entry key="S2" value="5.658115628972787" />
+      <entry key="S5" value="6.4064089561725694" />
+      <entry key="S10" value="6.692731513395025" />
+      <entry key="S30" value="6.895148360308705" />
+      <entry key="S60" value="6.947264000243142" />
+      <entry key="M2" value="6.973553952633084" />
+      <entry key="M5" value="6.989402784946576" />
+      <entry key="M10" value="6.994698254380143" />
+      <entry key="M15" value="6.996464805164835" />
+      <entry key="M30" value="6.998232053604426" />
+      <entry key="H1" value="6.999115939538891" />
+      <entry key="H2" value="6.9995579479512635" />
+      <entry key="H4" value="6.999778968520792" />
+      <entry key="D1" value="6.999963160662491" />
+      <entry key="W1" value="6.9999947372189455" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5086813877400096" />
+      <entry key="MS500" value="3.466318999905792" />
+      <entry key="S2" value="5.635470358369143" />
+      <entry key="S5" value="6.3960511189180105" />
+      <entry key="S10" value="6.687307993234222" />
+      <entry key="S30" value="6.893283282503357" />
+      <entry key="S60" value="6.946324118689936" />
+      <entry key="M2" value="6.973082161795175" />
+      <entry key="M5" value="6.98921362274071" />
+      <entry key="M10" value="6.994603598810214" />
+      <entry key="M15" value="6.996401684891812" />
+      <entry key="M30" value="6.998200485185165" />
+      <entry key="H1" value="6.999100153258033" />
+      <entry key="H2" value="6.9995500542929605" />
+      <entry key="H4" value="6.999775021562162" />
+      <entry key="D1" value="6.999962502818069" />
+      <entry key="W1" value="6.999994643240729" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3HXot5eROth2rFo4ozI1hAUt3FP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/urijkuprij/WebstormProjects/hometask-3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.test.executor": "Run",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.341" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1b6c648-fdd4-4970-aea3-e46b495c65e7" name="Changes" comment="" />
+      <created>1786023985582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786023985582</updated>
+      <workItem from="1786023986585" duration="1225000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: test-task-3&#10;&#10;* Add gitignore.">
+      <option name="closed" value="true" />
+      <created>1786024104770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786024104770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: test-task-3&#10;&#10;* Add package.json files.">
+      <option name="closed" value="true" />
+      <created>1786024150473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786024150473</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: test-task-3&#10;&#10;* Add tsgonfig.json files.">
+      <option name="closed" value="true" />
+      <created>1786024167777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786024167777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: test-task-3&#10;&#10;* Add task files.">
+      <option name="closed" value="true" />
+      <created>1786024189736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786024189736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: test-task-3&#10;&#10;* Add task test files.">
+      <option name="closed" value="true" />
+      <created>1786024268159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786024268159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/server.js" />
+        <option value="$PROJECT_DIR$/src/status.js" />
+        <option value="$PROJECT_DIR$/src/handler.js" />
+        <option value="$PROJECT_DIR$/src/https-server.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: test-task-3&#10;&#10;* Add gitignore." />
+    <MESSAGE value="feat: test-task-3&#10;&#10;* Add package.json files." />
+    <MESSAGE value="feat: test-task-3&#10;&#10;* Add tsgonfig.json files." />
+    <MESSAGE value="feat: test-task-3&#10;&#10;* Add task files." />
+    <MESSAGE value="feat: test-task-3&#10;&#10;* Add task test files." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test-task-3&#10;&#10;* Add task test files." />
+  </component>
+</project>
