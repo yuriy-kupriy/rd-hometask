@@ -1,7 +1,7 @@
 {
   // Джерело правди — .ts (node 24 стрипає типи сам: `node src/server.ts` працює).
-  // Тут немає окремого build/tsc-кроку — цей конфіг лише для type-checking
-  // в редакторі (WebStorm/tsserver). Ніхто не емітить .js із нього.
+  // Збірка потрібна лише щоб поруч лягли .js, які грепають acceptance criteria.
+  // Тому НЕМАЄ outDir: емісія йде поруч із джерелом, у src/.
   "compilerOptions": {
     "target": "esnext",
     "module": "nodenext",
