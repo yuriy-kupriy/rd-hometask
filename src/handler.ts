@@ -61,16 +61,17 @@ const parseHead = (head: string): ParsedRequest | null => {
 
     if (method === undefined || target === undefined || !target.startsWith('/')) return null;
 
-    const headers = Object.fromEntries(
-        headerLines
-            .filter((line) => line.includes(':'))
-            .map((line) => {
-                const separator = line.indexOf(':');
-                return [line.slice(0, separator).trim().toLowerCase(), line.slice(separator + 1).trim()];
-            }),
-    );
+    if (headerLines.some((line) => !line.includes(':'))) return null;
 
-    return { method, path: target.split('?')[0]!, headers };
+    const headers = headerLines.reduce((acc, line) => {
+        const separator = line.indexOf(':');
+        const name = line.slice(0, separator).trim().toLowerCase();
+        const value = line.slice(separator + 1).trim();
+        const existing = acc.get(name);
+        return acc.set(name, existing === undefined ? value : `${existing}, ${value}`);
+    }, new Map<string, string>());
+
+    return { method, path: target.split('?')[0]!, headers: Object.fromEntries(headers) };
 };
 
 const createHeadParser = (): Transform =>
