@@ -1,0 +1,38 @@
+# Base. Same in dev, CI and prod.
+services:
+  api:
+    build:
+      context: ./app
+      dockerfile: ../Dockerfile
+    environment:
+      DATABASE_URL: postgres://app:secret@db:5432/app
+      #             ↑ host "db" is the SERVICE NAME. DNS inside the compose network.
+      #               No IPs and no localhost: localhost in a container is the container itself
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+        # ↑ THIS IS THE KEY PART. Without condition, depends_on only waits for the process to
+        #   START, not for it to be ready to accept requests. Postgres takes 2-3 seconds to
+        #   come up, and the app crashes on the very first connection attempt
+
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      #  ↑ named volume. Without it the data lives in the container's layer
+      #    and disappears together with docker compose down
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d app"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    # port 5432 is NOT published: the database is reachable only inside the compose network.
+
+volumes:
+  pgdata:
