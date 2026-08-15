@@ -1,0 +1,22 @@
+# Dev mode. Loaded automatically alongside docker-compose.yml,
+# but NOT loaded when CI calls `docker compose -f docker-compose.yml ...` explicitly.
+services:
+  api:
+    image: rd-hometask-api-dev
+    # ↑ a separate tag from the base build — otherwise Compose can reuse a
+    #   previously built prod (runner) image for the same tag and skip
+    #   rebuilding for the builder target, leaving devDependencies (tsx) missing
+    build:
+      target: builder
+      # ↑ the stage with a full npm ci (typescript, tsx, @types/* included)
+    command: npm run dev
+    # ↑ tsx watch src/server.ts — hot-reload straight from .ts, no separate tsc step
+    environment:
+      NODE_ENV: development
+    volumes:
+      - ./app/src:/app/src
+      - ./app/tsconfig.json:/app/tsconfig.json
+      - ./app/package.json:/app/package.json
+      - ./app/package-lock.json:/app/package-lock.json
+        # ↑ only sources and manifests are mounted — node_modules from the builder
+        #   layer stays untouched, no separate anonymous volume needed
